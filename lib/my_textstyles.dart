@@ -20,6 +20,17 @@ class MyTextStyles {
       fontWeight: FontWeight.w600,
       fontSize: 20);
 
+  static TextStyle largeTitle = TextStyle(
+      color: MyColors.primaryText,
+      fontFamily: "Poppins",
+      fontWeight: FontWeight.w600,
+      fontSize: 30);
+  static TextStyle largeDot = TextStyle(
+      color: MyColors.secondary,
+      fontFamily: "Poppins",
+      fontWeight: FontWeight.w600,
+      fontSize: 30);
+
   static TextStyle rating1 = TextStyle(
       color: MyColors.primaryText, fontFamily: "Poppins", fontSize: 22);
 

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/components/my_card.dart';
-import 'package:myapp/my_colors.dart';
+import 'package:myapp/screens/screen_1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,16 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-          backgroundColor: MyColors.primary,
-          body: const Center(
-            child: MyCard(
-              movieTitle: "Hitman's Wife's Bodyguard",
-              movieRating: "2.8",
-            ),
-          )),
+      home: Screen1(),
     );
   }
 }
